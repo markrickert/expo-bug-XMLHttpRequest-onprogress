@@ -1,4 +1,4 @@
-# `XMLHttpRequest` onprogress bug
+# react-native/expo `XMLHttpRequest` onprogress bug
 
 This is a minimal reproduceable demo for a problem with `XMLHttpRequest` in expo.
 
