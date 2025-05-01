@@ -6,18 +6,25 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "expo48": "yarn add expo@48.0.21 && npx expo install --fix",
+    "expo49": "yarn add expo@49.0.23 && npx expo install --fix",
+    "expo52": "yarn add expo@^52.0.46 && npx expo install --fix",
+    "expo53": "yarn add expo@^53.0.4 && npx expo install --fix"
   },
   "dependencies": {
-    "expo": "~53.0.4",
-    "expo-status-bar": "~2.2.3",
-    "react": "19.0.0",
-    "react-native": "0.79.1"
+    "expo": "48.0.21",
+    "expo-asset": "~8.9.1",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-native": "0.71.14"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
-    "@types/react": "~19.0.10",
-    "typescript": "~5.8.3"
+    "@types/react": "~18.0.27",
+    "express": "^5.1.0",
+    "express-throttle-bandwidth": "^1.0.1",
+    "formidable": "^3.5.4",
+    "typescript": "^4.9.4"
   },
   "private": true
 }
