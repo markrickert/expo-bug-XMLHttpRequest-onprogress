@@ -6,6 +6,12 @@ When converting a project from bare react-native to expo, I encountered a proble
 
 This feature was working in the very last version of expo SDK 48 and broken in 49 onwards. It remains broken in the latest expo SDK 53.
 
+- Issue: https://github.com/expo/expo/issues/28269
+- Related Discussion: https://github.com/expo/expo/issues/28269
+- Introducing this reproduction: https://github.com/expo/expo/issues/28269#issuecomment-2845041078
+- The fix: https://github.com/expo/expo/pull/36715
+- And a regression from the fix: https://github.com/expo/expo/issues/36908#issuecomment-2887457505
+
 ## Steps to reproduce:
 
 1. Clone this repository
